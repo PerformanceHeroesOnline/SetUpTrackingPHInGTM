@@ -1,29 +1,6 @@
 {
-    "exportFormatVersion": 2,
-    "exportTime": "2021-09-27 12:56:13",
-    "containerVersion": {
-        "path": "accounts/6004926774/containers/52116487/versions/4",
-        "accountId": "6004926774",
-        "containerId": "52116487",
-        "containerVersionId": "4",
-        "name": "SetUp - TokeIDCookieSetting PH",
-        "container": {
-            "path": "accounts/6004926774/containers/52116487",
-            "accountId": "6004926774",
-            "containerId": "52116487",
-            "name": "www.performanceheroes.de/Werbemittel/2021_09_TrackingTestSandkasten/Seite2.html",
-            "publicId": "GTM-TTGJXHN",
-            "usageContext": [
-                "WEB"
-            ],
-            "fingerprint": "1632743754938",
-            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004926774/containers/52116487/workspaces?apiLink=container"
-        },
-        "tag": [
+          "tag": [
             {
-                "accountId": "6004926774",
-                "containerId": "52116487",
-                "tagId": "5",
                 "name": "set coyote Cookie",
                 "type": "html",
                 "parameter": [
@@ -38,9 +15,6 @@
                         "value": "false"
                     }
                 ],
-                "fingerprint": "1632745076809",
-                "firingTriggerId": [
-                    "6"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT",
                 "monitoringMetadata": {
