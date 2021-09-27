@@ -26,9 +26,6 @@
         ],
         "trigger": [
             {
-                "accountId": "6004926774",
-                "containerId": "52116487",
-                "triggerId": "6",
                 "name": "PH Landingpage",
                 "type": "PAGEVIEW",
                 "filter": [
@@ -48,14 +45,11 @@
                         ]
                     }
                 ],
-                "fingerprint": "1632744961526"
+
             }
         ],
         "variable": [
             {
-                "accountId": "6004926774",
-                "containerId": "52116487",
-                "variableId": "4",
                 "name": "PH Token ID",
                 "type": "u",
                 "parameter": [
@@ -70,13 +64,10 @@
                         "value": "tk"
                     }
                 ],
-                "fingerprint": "1632744674228",
                 "formatValue": {}
             },
             {
-                "accountId": "6004926774",
-                "containerId": "52116487",
-                "variableId": "7",
+
                 "name": "Read TokenID PH",
                 "type": "k",
                 "parameter": [
@@ -91,11 +82,9 @@
                         "value": "PH TokenID CC"
                     }
                 ],
-                "fingerprint": "1632746251199",
                 "formatValue": {}
             }
         ],
-        "fingerprint": "1632747346125",
-        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004926774/containers/52116487/versions/4?apiLink=version"
+
     }
 }
