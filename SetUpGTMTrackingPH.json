@@ -1,0 +1,128 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2021-09-27 12:56:13",
+    "containerVersion": {
+        "path": "accounts/6004926774/containers/52116487/versions/4",
+        "accountId": "6004926774",
+        "containerId": "52116487",
+        "containerVersionId": "4",
+        "name": "SetUp - TokeIDCookieSetting PH",
+        "container": {
+            "path": "accounts/6004926774/containers/52116487",
+            "accountId": "6004926774",
+            "containerId": "52116487",
+            "name": "www.performanceheroes.de/Werbemittel/2021_09_TrackingTestSandkasten/Seite2.html",
+            "publicId": "GTM-TTGJXHN",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1632743754938",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004926774/containers/52116487/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "6004926774",
+                "containerId": "52116487",
+                "tagId": "5",
+                "name": "set coyote Cookie",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\nfunction createCookie(name,value,days) {\n\tif (days) {\n\t\tvar date = new Date();\n\t\tdate.setTime(date.getTime()+(days*24*60*60*1000));\n\t\tvar expires = \"; expires=\"+date.toGMTString();\n\t}\n\telse var expires = \"\";\n\t\n  document.cookie = name+\"=\"+value+expires+\"; SameSite=None; Secure; path=/; domain=.\" + location.hostname.replace(/^www\\./i, \"\");\n}\n  createCookie (\"PH TokenID CC\",\"{{PH Token ID}}\" ,14)\n</script>\n"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1632745076809",
+                "firingTriggerId": [
+                    "6"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6004926774",
+                "containerId": "52116487",
+                "triggerId": "6",
+                "name": "PH Landingpage",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "GREATER",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{PH Token ID}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1632744961526"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6004926774",
+                "containerId": "52116487",
+                "variableId": "4",
+                "name": "PH Token ID",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "QUERY"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "queryKey",
+                        "value": "tk"
+                    }
+                ],
+                "fingerprint": "1632744674228",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6004926774",
+                "containerId": "52116487",
+                "variableId": "7",
+                "name": "Read TokenID PH",
+                "type": "k",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decodeCookie",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "PH TokenID CC"
+                    }
+                ],
+                "fingerprint": "1632746251199",
+                "formatValue": {}
+            }
+        ],
+        "fingerprint": "1632747346125",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004926774/containers/52116487/versions/4?apiLink=version"
+    }
+}
