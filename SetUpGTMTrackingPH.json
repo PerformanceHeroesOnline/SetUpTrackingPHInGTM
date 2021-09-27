@@ -15,7 +15,6 @@
                         "value": "false"
                     }
                 ],
-                ],
                 "tagFiringOption": "ONCE_PER_EVENT",
                 "monitoringMetadata": {
                     "type": "MAP"
